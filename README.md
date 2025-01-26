@@ -260,8 +260,7 @@ TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
-power management:
-```__.
+power management:```__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ top
 top - 18:58:00 up  1:23,  0 users,  load average: 0.15, 0.24, 0.20
 Tasks:  22 total,   1 running,  21 sleeping,   0 stopped,   0 zombie
