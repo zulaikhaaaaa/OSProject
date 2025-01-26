@@ -58,7 +58,7 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __The default OS used to run the virtual environment for Github Codespaces is Ubuntu Linus. Specifically, it typically uses an Ubuntu-based Docker container for the development environment__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __There's 2 options we can choose from a selction of virtual machine types which is 2 cores, 8GB RAM and 32 GB storage and 32 cores, 64 GB RAM and 128 GB storage __.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __There's 2 options we can choose from a selction of virtual machine types which is 2 cores, 8GB RAM and 32 GB storage and 32 cores, 64 GB RAM and 128 GB storage__.
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __By commiting and syncing work, we can continue working on the project from any device and making sure the changes are always up-to-date and accesible__.
 
 ## Exploring the Terminal
