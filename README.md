@@ -105,6 +105,7 @@ messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin```__.
 3. Run the command **df** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ df
+
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10706472  20447108  35% /
 tmpfs              65536        0     65536   0% /dev
@@ -113,6 +114,7 @@ shm                65536        8     65528   1% /dev/shm
 /dev/sdc1       46127956 18672248  25080132  43% /tmp
 /dev/loop4      32847680 10706472  20447108  35% /workspaces```__.
 4. Run the command **du** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ du
+
 8       ./.git/refs/heads
 4       ./.git/refs/tags
 12      ./.git/refs/remotes/origin
@@ -222,8 +224,10 @@ shm                65536        8     65528   1% /dev/shm
 1972    ./images
 4868    .```__.
 5. Run the command **ls** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ ls
+
 README.md  images```__.
 6. Run the command **ls -asl** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ ls -asl
+
 total 40
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 26 17:39 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jan 26 17:39 ..
@@ -231,9 +235,11 @@ total 40
 24 -rw-rw-rw-  1 codespace root 23463 Jan 26 18:35 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 26 17:39 images```__.
 7. Run the command **free -h** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ free -h
+
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.5Gi       402Mi        64Mi       5.8Gi       5.9Gi```__.
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
+
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -262,10 +268,12 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:```__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ top
+
 top - 18:58:00 up  1:23,  0 users,  load average: 0.15, 0.24, 0.20
 Tasks:  22 total,   1 running,  21 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  2.5 us,  2.0 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st```__.
 10. Run the command **uname -a**. ***(1 mark)*** __```@izyanilyani ➜ /workspaces/OSProject (main) $ uname -a
+
 Linux codespaces-0ffdff 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux```__.
 11. What is the available free memory in the system. ***(1 mark)*** __```free memory : 402 Mi```__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __```Available disk space: 20447108```__.
