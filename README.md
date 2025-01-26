@@ -7,7 +7,7 @@ Section: __6__.
 Team Mates:
 1. __NUR ANNISA ZULAIKHA BINTI NOR AZMI__ and __2319070__
 2. __IZYAN ILYANI BINTI RODZUAN__ and __2315464__
-3. __Fill name__ and __matric no__
+3. __NUR NISA HUMAIRAH BINTI ROSDI__ and __2122408__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
