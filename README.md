@@ -362,7 +362,10 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+*** __Answer__.***
+```bash
+@zulaikhaaaaa ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
+```
 
 ## You are on your own, create your own static webpage
 
