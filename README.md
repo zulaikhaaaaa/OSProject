@@ -25,7 +25,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/zulaikhaaaaa/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 folder of image and 1 file of README.md __.
 
 
 ## Exploring github codespaces
@@ -409,7 +409,7 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __BusyBox is a lightweight software suite that provides a collection of Unix utilities in a single executable for resource-constrained environments command switch --name  is used to assign a name to an entity, like a container or process, depending on the specific command being used__.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** 
 ```bash
 NETWORK ID     NAME      DRIVER    SCOPE
@@ -419,9 +419,13 @@ d4d4dd00f2fa   host      host      local
 b9708d88f1b8   none      null      local
 d2c00fcb981d   rednet    bridge    local
 ```
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Fill answer here__.
-4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Fill answer here__.
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Gateway of bluenet: 172.18.0.1 and Gateway of rednet: 172.19.0.1__.
+
+4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Network address c1: 172.18.0.2 and Network address c2: 172.19.0.2__.
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __No, the ping is failed__.
+```bash
+ping: bad address 'c2'
+```
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
