@@ -422,7 +422,7 @@ d2c00fcb981d   rednet    bridge    local
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Gateway of bluenet: 172.18.0.1 and Gateway of rednet: 172.19.0.1__.
 
 4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Network address c1: 172.18.0.2 and Network address c2: 172.19.0.2__.
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __No, the ping is failed__.
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __No, the ping fails__.
 ```bash
 ping: bad address 'c2'
 ```
@@ -437,7 +437,7 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Yes, i able to ping__.
+1. Are you able to ping? Show your output . ***(1 mark)*** __Yes, I am able to ping__.
 ```bash
 PING c2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=0 ttl=64 time=4.896 ms
@@ -457,7 +457,7 @@ PING c2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=14 ttl=64 time=0.154 ms
 64 bytes from 172.20.0.3: seq=15 ttl=64 time=0.172 ms
 ```
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+2. What is different from the previous ping in the section above? ***(1 mark)*** __Bridgenet can ping because it's on the same network, allowing communication between containers, while Bluenet and Rednet are separate networks, which is why the ping fails.__.
 
 ## Intermediate Level (10 marks bonus)
 
