@@ -25,7 +25,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/zulaikhaaaaa/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __1 folder of image and 1 file of README.md __.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 folder of image and 1 file of README.md__.
 
 
 ## Exploring github codespaces
@@ -409,7 +409,7 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __BusyBox is a lightweight software suite that provides a collection of Unix utilities in a single executable for resource-constrained environments command switch --name  is used to assign a name to an entity, like a container or process, depending on the specific command being used__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __BusyBox is a lightweight software suite that provides a collection of Unix utilities in a single executable for resource-constrained environments and for the command switch --name, it is used to assign a name to an entity, like a container or process, depending on the specific command being used__.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** 
 ```bash
 NETWORK ID     NAME      DRIVER    SCOPE
