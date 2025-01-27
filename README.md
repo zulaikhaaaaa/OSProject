@@ -437,7 +437,26 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** __Yes, i able to ping__.
+```bash
+PING c2 (172.20.0.3): 56 data bytes
+64 bytes from 172.20.0.3: seq=0 ttl=64 time=4.896 ms
+64 bytes from 172.20.0.3: seq=1 ttl=64 time=0.263 ms
+64 bytes from 172.20.0.3: seq=2 ttl=64 time=0.191 ms
+64 bytes from 172.20.0.3: seq=3 ttl=64 time=0.153 ms
+64 bytes from 172.20.0.3: seq=4 ttl=64 time=0.182 ms
+64 bytes from 172.20.0.3: seq=5 ttl=64 time=0.195 ms
+64 bytes from 172.20.0.3: seq=6 ttl=64 time=0.154 ms
+64 bytes from 172.20.0.3: seq=7 ttl=64 time=0.123 ms
+64 bytes from 172.20.0.3: seq=8 ttl=64 time=0.156 ms
+64 bytes from 172.20.0.3: seq=9 ttl=64 time=0.153 ms
+64 bytes from 172.20.0.3: seq=10 ttl=64 time=0.148 ms
+64 bytes from 172.20.0.3: seq=11 ttl=64 time=0.151 ms
+64 bytes from 172.20.0.3: seq=12 ttl=64 time=0.146 ms
+64 bytes from 172.20.0.3: seq=13 ttl=64 time=0.153 ms
+64 bytes from 172.20.0.3: seq=14 ttl=64 time=0.154 ms
+64 bytes from 172.20.0.3: seq=15 ttl=64 time=0.172 ms
+```
 2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
 
 ## Intermediate Level (10 marks bonus)
