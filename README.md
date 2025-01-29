@@ -362,7 +362,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Answer__.***
+***Yes, I can***
 ```bash
 @zulaikhaaaaa ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
 ```
