@@ -1,4 +1,4 @@
-# OSProject Running Containers for Application Development
+    # OSProject Running Containers for Application Development
 
 Group Name: __MeowMeow__. 
 
@@ -603,8 +603,8 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** __The error was getaddrinfo ENOTFOUND mysql-container, which means the Node.js container could not find the MySQL container. This happened because they were in separate networks and couldn't communicate.__.
+2. Show the instruction needed to make this work. ***(1 mark)*** __docker network connect nodejsnet mysql-container --This allowed the two containers to communicate.__.
 
 
 
